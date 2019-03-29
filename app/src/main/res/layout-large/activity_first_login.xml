@@ -8,8 +8,8 @@
 
     <com.example.aoge.skillexchange.CircleImageButton
         android:id="@+id/img_headportrait"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="117dp"
+        android:layout_height="161dp"
         android:layout_centerInParent="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.22" />
 
 
     <LinearLayout
@@ -43,11 +43,11 @@
         app:layout_constraintVertical_bias="0.398">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="110dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gender"
-            android:textSize="20sp" />
+            android:textSize="24sp" />
 
         <RadioGroup
             android:id="@+id/sex"
@@ -57,43 +57,43 @@
 
             <RadioButton
                 android:id="@+id/nan"
-                android:layout_width="100dp"
+                android:layout_width="110dp"
                 android:layout_height="match_parent"
                 android:checked="true"
                 android:gravity="center"
                 android:text="@string/male"
-                android:textSize="20sp" />
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/nv"
-                android:layout_width="100dp"
+                android:layout_width="130dp"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="@string/female"
-                android:textSize="20sp" />
+                android:textSize="24sp" />
         </RadioGroup>
     </LinearLayout>
 
     <TextView
         android:id="@+id/txt_can"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="34dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="You can:"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564" />
+        app:layout_constraintVertical_bias="0.546" />
 
     <EditText
         android:id="@+id/edt_can"
-        android:layout_width="253dp"
+        android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -108,33 +108,34 @@
         android:singleLine="true"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintVertical_bias="0.546" />
 
     <TextView
         android:id="@+id/txt_want"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="You want:"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <EditText
         android:id="@+id/edt_want"
-        android:layout_width="253dp"
+        android:layout_width="321dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -149,17 +150,18 @@
         android:singleLine="true"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.727" />
 
     <Button
         android:id="@+id/btnjoinus"
-        android:layout_width="280dp"
-        android:layout_height="47dp"
+        android:layout_width="238dp"
+        android:layout_height="52dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -168,12 +170,12 @@
         android:onClick="btnJoinUs"
         android:text="@string/action_join_us_short"
         android:textColor="@android:color/white"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.895" />
 
     <TextView
         android:id="@+id/txt_welcome"
@@ -189,10 +191,10 @@
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.075" />
 
 
 </android.support.constraint.ConstraintLayout>

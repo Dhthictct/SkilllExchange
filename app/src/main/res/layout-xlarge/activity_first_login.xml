@@ -8,46 +8,46 @@
 
     <com.example.aoge.skillexchange.CircleImageButton
         android:id="@+id/img_headportrait"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="312dp"
+        android:layout_height="204dp"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:onClick="selectHead"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.194" />
 
 
     <LinearLayout
         android:id="@+id/ll_sex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="611dp"
+        android:layout_height="84dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398">
+        app:layout_constraintVertical_bias="0.417">
 
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/gender"
-            android:textSize="20sp" />
+            android:textSize="36sp" />
 
         <RadioGroup
             android:id="@+id/sex"
@@ -57,44 +57,44 @@
 
             <RadioButton
                 android:id="@+id/nan"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
                 android:checked="true"
                 android:gravity="center"
                 android:text="@string/male"
-                android:textSize="20sp" />
+                android:textSize="36sp" />
 
             <RadioButton
                 android:id="@+id/nv"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
                 android:checked="false"
                 android:text="@string/female"
-                android:textSize="20sp" />
+                android:textSize="36sp" />
         </RadioGroup>
     </LinearLayout>
 
     <TextView
         android:id="@+id/txt_can"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="You can:"
-        android:textSize="20sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.569" />
 
     <EditText
         android:id="@+id/edt_can"
-        android:layout_width="253dp"
-        android:layout_height="34dp"
+        android:layout_width="403dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -108,34 +108,35 @@
         android:singleLine="true"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.569" />
 
     <TextView
         android:id="@+id/txt_want"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="You want:"
-        android:textSize="20sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.766" />
+        app:layout_constraintVertical_bias="0.729" />
 
     <EditText
         android:id="@+id/edt_want"
-        android:layout_width="253dp"
-        android:layout_height="34dp"
+        android:layout_width="403dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -149,17 +150,18 @@
         android:singleLine="true"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintHorizontal_bias="0.737"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <Button
         android:id="@+id/btnjoinus"
-        android:layout_width="280dp"
-        android:layout_height="47dp"
+        android:layout_width="303dp"
+        android:layout_height="79dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -168,31 +170,31 @@
         android:onClick="btnJoinUs"
         android:text="@string/action_join_us_short"
         android:textColor="@android:color/white"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.878" />
 
     <TextView
         android:id="@+id/txt_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="524dp"
+        android:layout_height="130dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Welcome to EX!"
-        android:textSize="48sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="casual"
+        android:text="Welcome to EX!"
         android:textColor="@color/colorAccent"
+        android:textSize="70sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.032" />
 
 
 </android.support.constraint.ConstraintLayout>

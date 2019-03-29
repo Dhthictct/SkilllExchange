@@ -72,7 +72,6 @@ public class FirstLoginActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_login);
-//        setContentView(R.layout.activitty_first_login_default);
 
         Intent intent = getIntent();
         email = intent.getStringExtra("email");
