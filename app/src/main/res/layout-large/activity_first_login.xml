@@ -37,17 +37,10 @@
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398">
-
-        <TextView
-            android:layout_width="110dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="@string/gender"
-            android:textSize="24sp" />
+        app:layout_constraintVertical_bias="0.39">
 
         <RadioGroup
             android:id="@+id/sex"
@@ -86,14 +79,14 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.514" />
 
     <EditText
         android:id="@+id/edt_can"
-        android:layout_width="321dp"
+        android:layout_width="450dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -106,15 +99,16 @@
         android:maxLength="70"
         android:padding="0dp"
         android:singleLine="true"
+        android:text="123"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.577" />
 
     <TextView
         android:id="@+id/txt_want"
@@ -128,32 +122,34 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintHorizontal_bias="0.016"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.674" />
 
     <EditText
         android:id="@+id/edt_want"
-        android:layout_width="321dp"
+        android:layout_width="449dp"
         android:layout_height="34dp"
         android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/editsharp"
-
         android:hint=" enter what you want to learn"
         android:inputType="textEmailAddress"
         android:maxLength="70"
         android:padding="0dp"
         android:singleLine="true"
+        android:text="123"
         android:textColor="@color/hint1"
         android:textColorHint="@color/hint1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.727" />
@@ -170,7 +166,7 @@
         android:onClick="btnJoinUs"
         android:text="@string/action_join_us_short"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -179,16 +175,16 @@
 
     <TextView
         android:id="@+id/txt_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
+        android:layout_width="335dp"
+        android:layout_height="68dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="casual"
-        android:text="Welcome to EX!"
+        android:text="Welcome to Large!"
         android:textColor="@color/colorAccent"
-        android:textSize="48sp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
